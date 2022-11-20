@@ -40,7 +40,7 @@ const checkValues = () => {
 
 const displayChart = (totalInterestPayableValue, loanAmount) => {
     const ctx = document.getElementById('myChart').getContext('2d');
-    myChart = new сhart(ctx, {
+    myChart = new Chart(ctx, {
         type: 'pie',
         data: {
             labels: ['Total Interest', 'Principal Loan Amount'],
